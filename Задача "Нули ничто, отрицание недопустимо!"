@@ -1,0 +1,9 @@
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+index = 0
+while   index < int(len(my_list)):
+    for i in my_list:
+        if int(i) > 0:
+           print(i)
+           index += 1
+        if int(i) < 0:
+           break
